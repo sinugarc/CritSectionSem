@@ -7,7 +7,7 @@ N = 8
 
 def task(common, tid, semaforo):
     a = 0
-    for i in range(60):
+    for i in range(80):
         print(f'{tid}−{i}: Non−critical Section')
         a += 1
         print(f'{tid}−{i}: End of non−critical Section')
